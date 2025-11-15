@@ -79,7 +79,7 @@
             <div id="canvasWrap">
                 <canvas id="canvas" width="512" height="768"></canvas>
                 <!-- **************** GIF für Fail **************** -->
-                <img id="smoke" src="img/rain.gif"
+                <img id="smoke" src="img/dislike.gif"
                     style="position:absolute;top:0;left:0;width:100%;height:auto;display:none;pointer-events:none;">
                 <div id="speechBubble">Hallo!</div>
             </div>
@@ -100,7 +100,7 @@
         <script>
 
 // **************** Sprechblase **************** 
-const userName = "Lisa";
+const userName = "Noah";
 const speechBubble = document.getElementById("speechBubble");
 
 const canvas = document.getElementById("canvas");
@@ -115,9 +115,9 @@ const imgHappy = new Image();
 const imgDmg = new Image();
 
 // ********************* Figuren anpassen *********************
-imgBase.src = "img/body_female.png"; 
-imgHappy.src = "img/body_happy_female.png";
-imgDmg.src = "img/body_sad_female.png";
+imgBase.src = "img/body_male.png"; 
+imgHappy.src = "img/body_happy_male.png";
+imgDmg.src = "img/body_sad_male.png";
 
 const PAD_R = 6;
 const pads = [
