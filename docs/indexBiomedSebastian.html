@@ -14,7 +14,7 @@
             #personalInfoBlock {
                 width: 95%;
                 max-width: 420px; 
-                background: #c7e425; /* ********** Änderung der Farbe ********** */
+                background: #e26f6f; /* ********** Änderung der Farbe ********** */
                 padding: 20px;
                 border-radius: 12px;
                 box-shadow: 0 4px 12px rgba(0,0,0,0.06);
@@ -59,7 +59,7 @@
                     hinzuzufügen, falls du möchtest.</p>
                 <div>
                     <strong>Name:</strong> [Sebastian]<br> <!-- **************** Name **************** -->
-                    <strong>Zitat:</strong> [Nein] <!-- **************** Zitat, allg Infos **************** -->
+                    <strong>Zitat:</strong> [Sebastian,Laurenz,Nils] <!-- **************** Zitat, allg Infos **************** -->
                 </div>
             </div>
 
@@ -79,9 +79,9 @@
             <div id="canvasWrap">
                 <canvas id="canvas" width="512" height="768"></canvas>
                 <!-- **************** GIF für Fail **************** -->
-                <img id="smoke" src="img/rain.gif"
+                <img id="smoke" src="img/dislike.gif"
                     style="position:absolute;top:0;left:0;width:100%;height:auto;display:none;pointer-events:none;">
-                <div id="speechBubble">rain</div>
+                <div id="speechBubble">Hallo!</div>
             </div>
 
             <div class="info-block">
@@ -100,8 +100,8 @@
         <script>
 
 // **************** Sprechblase **************** 
-const userName = "Sebastian";
-const speechBubble = document.getElementById("Wie geht es dir?");
+const userName = "Sebastian, Laurenz und Nils";
+const speechBubble = document.getElementById("speechBubble");
 
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d", { alpha: true });
